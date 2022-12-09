@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      DAYCARE
+    </title>
+    <style>
+    .para{
+      font-size:50px;
+      font-display: center;
+      color:white;
+    }
+      .header{
+        background-color:rgb(50, 189, 235);
+        height:70px;
+        
+        display:flex;
+        justify-content: center;
+        flex-direction: row;
+        z-index: 100;
+        position:fixed;
+        top:0;
+        left:0;
+        right:0;
+        
+      }
+      .headerbar{
+        border: none;
+        background-color: rgb(50, 189, 235);
+        color:white;
+        font-size:20px;
+        height:45px;
+        cursor: pointer;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 25px;
+        padding-bottom: 45px;
+   
+      }
+      .headerbar:hover{
+        background-color: #ef986d;
+      }
+      .logo{
+            width:100%;  
+      
+      }
+      .logo2{
+        margin-left: 80px;
+       }
+       .imagebox{
+        background-color: rgb(239, 89, 35);
+        position: relative;
+       
+
+       }
+       .top{
+        background-color: rgb(5, 64, 119);
+        position:absolute;
+        bottom: 10px;
+
+
+       }
+       .middlepara{
+          font-weight: bold;
+          color: rgb(11, 77, 134);
+          font-size: 50px;
+          margin-left: 100px;
+          margin-bottom: 0px;
+        }
+      
+       .middnext{
+        
+        margin-left:30px;
+        font-size: 20px;
+       }
+
+      .one{
+  
+      /*  background-color: rgb(182, 228, 255);*/
+
+        display:grid;
+        /*grid-template-columns: 1fr 2fr 1fr;*/
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap:2em;
+        margin-top: 20px;
+        grid-auto-rows: minmax(00px, auto);
+      }
+       
+       
+       
+     .one > div {
+             margin-left: 20px;
+      
+             background: #1d91d4;
+             position: relative;
+                }
+     .firstbutton{
+      position:absolute;
+        background-color: rgb(90, 186, 246);
+        border: none;
+        border-radius: 5px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        color:white;
+        font-size: 25px;
+       
+        bottom: 0px;
+        left:0;
+        top:200px;
+        cursor: pointer;
+        
+
+      }
+     .nested{
+        display: grid;
+        grid-template-columns:repeat(2,1fr) ;
+        grid-auto-rows:70px;
+        grid-gap: 1em;
+        
+       
+        
+
+      }
+      .home{
+        height:70px;
+        position: absolute;
+        
+        left:10px;
+        top:0px;
+        z-index: 100;
+      }
+      
+      .foot{
+         background-color: lightpink;
+         position: relative;
+         
+         top:200px;
+
+       
+      }
+      .footer{
+        max-width: 100%;
+       
+       
+      }
+      
+      
+    </style>
+  </head>
+  <body style="height:2000px; ">
+    <div class="header">
+      <button class="headerbar">Our Client</button>
+      <button class="headerbar">Program and curriculum</button>
+      <button class="headerbar">About</button>
+      <button class="headerbar">Contact</button>
+      <div><img class="home"src="daycare/logo.jpg"></div> 
+    </div>
+
+    <div class="imagebox">
+      <img class="logo" src="daycare/baby2.png">   
+      <div class="top">
+        <p class="para">KINDER DAY CARE</p>
+      </div>
+    </div>
+    <div class="middle"> 
+      <p class="middlepara">Child Care For Whole World</p>
+      <p class="middnext"> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      In, reiciendis. Quos. Quo earum illo eius facere quia ea laborum
+      soluta corporis necessitatibus illum natus, ipsa
+      quos ducimus quisquam dolore tempora provident.
+      Lorem ipsum dolor sit amet consectetur adi earum illo eius facere quia ea laborum
+       soluta corporis necessitatibus illum natus, ipsa
+       quos ducimus quisquam dolore tempora provident.
+       Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+       In</p></div> 
+      <div class="one">
+        
+        <div >
+          <img class="logo" src="daycare/baby.webp">
+          <button class="firstbutton">Your baby's classroom is here .</button>
+        </div>
+        <div>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+          In, reiciendis. Quo earum illo eius facere quia ea laborum
+           soluta corporis necessitatibus illum natus, ipsa
+           quos ducimus quisquam dolore tempora provident.
+           Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+           In
+            In, reiciendis. Quo earum illo eius facere quia ea laborum
+            soluta corporis necessitatibus illum natus, ipsa
+            quos ducimus quisquam dolore tempora provident
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+          In, reiciendis. Quo earum illo eius facere quia ea laborum
+           soluta corporis necessitatibus illum natus, ipsa
+           quos ducimus quisquam dolore tempora provident.
+
+           <button class="firstbutton">Your baby's classroom is here .</button>
+        </div>
+        <div>
+        
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+          In similique illum, corrupti tempore earum commodi! 
+          Ad eveniet nam voluptatum laudantium iste! Vero odio
+           placeat distinctio aperiam, quae ex ipsum. Voluptatum!
+           <button class="firstbutton">Your baby's classroom is here .</button>
+        </div>
+       
+        <div class="nested">
+          <div>Infants</div>
+          <div>Toddlers</div>
+          <div>Before and after care</div>
+          <div>hello</div>
+          <div>hello</div>
+          
+          
+        
+        </div>
+        <div>
+          <img class="logo" src="daycare/baby.webp">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+          In, reiciendis. Quo earum illo eius facere quia ea laborum
+           soluta corporis necessitatibus illum natus, ipsa
+           quos ducimus quisquam dolore tempora provident.
+        </div>
+        <div>
+         
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+          In similique illum, corrupti tempore earum commodi! 
+          Ad eveniet nam voluptatum laudantium iste! Vero odio
+           placeat distinctio aperiam, quae ex ipsum. Voluptatum!
+        </div>
+      </div>
+      
+    <div class="foot">
+      <img class="footer" src="daycare/footer.png" srcset="" alt="">
+    </div>
+    
+  </body>
+</html>

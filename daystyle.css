@@ -1,0 +1,141 @@
+
+.para{
+  font-size:50px;
+  font-display: center;
+  color:white;
+  text-decoration-line: none;
+}
+  .header{
+    background-color:rgb(50, 189, 235);
+    height:70px;
+    
+    display:flex;
+    justify-content: center;
+    flex-direction: row;
+    z-index: 100;
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+   
+  }
+  .headerbar{
+    border: none;
+    background-color: rgb(50, 189, 235);
+    color:white;
+    font-size:20px;
+    height:45px;
+    cursor: pointer;
+    
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 25px;
+    padding-bottom: 43px;
+   
+    
+    
+
+  }
+  .headerbar:hover{
+    background-color: #ef986d;
+  }
+  .home{
+    height:70px;
+    position: absolute;
+    left:10px;
+    top:0;
+    z-index: 100;
+    
+  }
+
+  .logo{
+        width:100%;  
+  
+  }
+  .logo2{
+    margin-left: 80px;
+   }
+   .imagebox{
+    background-color: rgb(239, 89, 35);
+    position: relative;
+    margin-top: 60px;
+   
+
+   }
+   .top{
+    background-color: rgb(5, 64, 119);
+    position:absolute;
+    bottom: 10px;
+
+   }
+   .middle{
+    background-color: rgb(250, 245, 245);
+   }
+   .middlepara{
+      font-weight: bold;
+      color: rgb(11, 77, 134);
+      font-size: 50px;
+      margin-left: 100px;
+      margin-bottom: 0px;
+    }
+  
+   .middnext{
+    
+    margin-left:30px;
+    font-size: 20px;
+   }
+   .container{
+    
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 15px;
+    row-gap:15px;
+   
+    
+   }
+   @media(max-width:600px){
+  .container{
+    grid-template-columns: 1fr 1fr;
+  }
+   }
+
+  .firstbutton{
+    background-color: rgb(86, 158, 225);
+    margin:0.5em;
+    
+    border:none;
+    border-radius: 5px;
+   
+    cursor:pointer;
+   
+  }
+   
+  .buttonimage{
+    width:100%;
+
+  } 
+.boldtext{
+  color:white;
+  font-size: 30px;
+  margin-left: 15px;
+
+}
+.smalltext{
+  color:white;
+  font-size: 20px;
+  margin-left:14px;
+ 
+}
+  
+  .foot{
+    
+     position: relative;  
+     top:200px;
+
+   }
+
+  .footer{
+    max-width: 100%;
+
+  }
+  
